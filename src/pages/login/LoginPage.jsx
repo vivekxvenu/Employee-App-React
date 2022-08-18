@@ -1,11 +1,11 @@
-import Button from "../components/Button"
+import Button from "../../components/Button"
 import { useNavigate } from 'react-router-dom'
-import InputField from "../components/InputField";
+import InputField from "../../components/InputField";
 import { useState } from "react";
-import { useLoginMutation } from "../services/BaseApi";
-import { setStorage } from "../services/util";
-import loginimage from "../images/large-image.png"
-import logo from "../images/kv logo.png"
+import { useLoginMutation } from "./api";
+import { setStorage } from "../../services/util";
+import loginimage from "../../images/large-image.png"
+import logo from "../../images/kv logo.png"
 const LoginPage = () => {
     const navigate = useNavigate();
 

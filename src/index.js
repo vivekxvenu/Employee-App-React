@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import EmployeeList from './pages/EmployeeList';
-import CreateEmployee from './pages/CreateEmployee';
-import LoginPage from './pages/LoginPage';
+import EmployeeList from './pages/employee-list/EmployeeList';
+import CreateEmployee from './pages/create-employee/CreateEmployee';
+import LoginPage from './pages/login/LoginPage';
 
 import { Provider } from 'react-redux';
 import store from './store/store';
-import EditEmployee from './pages/EditEmployee';
-import EmployeeDetails from './pages/EmployeeDetails';
+import EditEmployee from './pages/edit-employee/EditEmployee';
+import EmployeeDetails from './pages/employee-details/EmployeeDetails';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

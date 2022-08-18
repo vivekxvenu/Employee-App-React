@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import Aside from "../components/Aside";
-import BlankDiv from "../components/BlankDiv";
-import Button from "../components/Button";
-import Header from "../components/Header";
-import InputField from "../components/InputField";
-import InputSelect from "../components/InputSelect";
-import { useCreateEmployeesMutation, useEditEmployeesMutation, useGetEmployeeByIDQuery } from "../services/BaseApi";
+import Aside from "../../components/Aside";
+import BlankDiv from "../../components/BlankDiv";
+import Button from "../../components/Button";
+import Header from "../../components/Header";
+import InputField from "../../components/InputField";
+import InputSelect from "../../components/InputSelect";
+import { useCreateEmployeesMutation, useEditEmployeesMutation, useGetEmployeeByIDQuery } from "./api";
 
 const dropDown = {
     role: [

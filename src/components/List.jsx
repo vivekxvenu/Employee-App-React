@@ -1,6 +1,6 @@
 import {MdOutlineDelete, MdOutlineEdit} from 'react-icons/md'
 import { useNavigate } from 'react-router-dom';
-import { useDeleteEmployeesMutation } from '../services/BaseApi';
+import { useDeleteEmployeesMutation } from '../pages/employee-list/api';
 const List = ({
     employeeDetails
 }) => {

@@ -5,7 +5,7 @@ import InputField from './components/InputField';
 import { useState } from 'react';
 import TextField from './components/TextField';
 import { useEffect } from 'react';
-import CreateEmployee from './pages/CreateEmployee';
+import CreateEmployee from './pages/create-employee/CreateEmployee';
 
 
 

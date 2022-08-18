@@ -1,12 +1,12 @@
-import Button from "../components/Button";
+import Button from "../../components/Button";
 import {useNavigate} from 'react-router-dom'
-import { useGetAllEmployeesQuery, useGetEmployeesQuery } from "../services/BaseApi";
-import '../style/style.css';
-import BlankDiv from "../components/BlankDiv";
-import Header from "../components/Header";
-import Aside from "../components/Aside";
-import List from "../components/List";
-import ListHeader from "../components/ListHeader";
+import { useGetAllEmployeesQuery, useGetEmployeesQuery } from "./api";
+import './style.css';
+import BlankDiv from "../../components/BlankDiv";
+import Header from "../../components/Header";
+import Aside from "../../components/Aside";
+import List from "../../components/List";
+import ListHeader from "../../components/ListHeader";
 
 
 

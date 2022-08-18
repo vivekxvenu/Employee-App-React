@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Aside from "../components/Aside";
-import BlankDiv from "../components/BlankDiv";
-import EmpHeader from "../components/EmpHeader";
-import Header from "../components/Header";
-import { useGetEmployeeByIDQuery } from "../services/BaseApi";
+import Aside from "../../components/Aside";
+import BlankDiv from "../../components/BlankDiv";
+import EmpHeader from "../../components/EmpHeader";
+import Header from "../../components/Header";
+import { useGetEmployeeByIDQuery } from "./api";
 
 const EmployeeDetails=()=>{
     const {id}=useParams();
